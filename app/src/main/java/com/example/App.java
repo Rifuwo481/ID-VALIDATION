@@ -22,7 +22,7 @@ System.out.println("Exiting validator. Goodbye!");
 break;
 }
 
-boolean isValid = ValidateSaId.isIdNumberValid(input);
+boolean isValid = org.example.ValidateSaId.isIdNumberValid(input);
 System.out.printf("ID: %s -> %s%n", input, isValid ? "Valid" : "Invalid");
 }
 
